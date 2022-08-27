@@ -2,7 +2,7 @@ package Stacks;
 
 import java.util.EmptyStackException;
 
-public class Stack<T> {
+public class MyStack<T> {
 
     private static class StackNode<T> {
         private T data;
@@ -11,6 +11,7 @@ public class Stack<T> {
         public StackNode(T data) {
             this.data = data;
         }
+    }
         // we are gonna be creating the top, so it can hold StackNode<T> we could fetch the element in the top.
         private StackNode<T> top;
 
@@ -36,7 +37,4 @@ public class Stack<T> {
         public boolean isEmpty() {
             return top == null;
         }
-    }
-
-
 }

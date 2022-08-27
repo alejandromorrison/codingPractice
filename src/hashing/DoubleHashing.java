@@ -1,2 +1,5 @@
-package hashing;public class DoubleHashing {
+package hashing;
+
+public class DoubleHashing {
+
 }

@@ -1,2 +1,8 @@
-package BinarySearchTree;public class BinaryNode {
+package BinarySearchTree;
+
+public class BinaryNode {
+    public int value;
+    public int height;
+    public BinaryNode left;
+    public BinaryNode right;
 }

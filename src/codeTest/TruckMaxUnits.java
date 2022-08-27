@@ -1,2 +1,7 @@
-package codeTest;public class TruckMaxUnits {
+package codeTest;
+
+import java.util.Arrays;
+
+public class TruckMaxUnits {
+
 }
